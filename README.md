@@ -1,7 +1,8 @@
 # Python-Projects
 
 To make these Projects run, you need to have python installed
-Donwload Python here : [Donwload-Link](https://www.python.org/downloads/)
+
+Download Python here : [Donwload-Link](https://www.python.org/downloads/)
 
 Projects :
 - [Cash-Register](https://github.com/MaxiAmZocken/Python-Projects/tree/master/Cash-Register)
