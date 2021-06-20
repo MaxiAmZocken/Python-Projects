@@ -53,6 +53,7 @@ while switch == 1:
         list.append("Cola - 3€")
         os.system("cls")
     elif userinput1 == "exit":
+        #change switch to 0, so the loop ends
         switch -= 1
     else:
         print("wrong commmand, try again")
