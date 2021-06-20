@@ -60,7 +60,7 @@ while switch == 1:
         time.sleep(1)
         os.system("cls")
 
-f = open(f"{today}.txt", "a")
+f = open(f"C:\\Users\\maxi_\\Documents\\GIT\\Python-Projects\\Cash-Register\\Logs\\{today}.txt", "a")
 for shopping_list in list:
     f.write(f"{shopping_list}\n")
 f.close()
