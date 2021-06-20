@@ -2,6 +2,7 @@ import os
 import time
 
 space = " "
+heading = "------------------------------\n[TOLLES PROGRAMM] -> by Maxiii\n------------------------------"
 
 #added a on/off switch for the "while loop"
 switch = 1
@@ -15,21 +16,19 @@ os.system("cls")
 
 #startup 
 for i in range (2):
-    print("starting .")
+    print("--------------\nstarting .\n--------------")
     time.sleep(0.5)
     os.system("cls")
-    print("starting ..")
+    print("--------------\nstarting ..\n--------------")
     time.sleep(0.5)
     os.system("cls")
-    print("starting ...")
+    print("--------------\nstarting ...\n--------------")
     time.sleep(0.5)
     os.system("cls")
 
 #while loop for multiple orders until you wirte "exit"
 while switch == 1:
-    print("------------------------------")
-    print("[TOLLES PROGRAMM] -> by Maxiii")
-    print("------------------------------")
+    print(heading)
     print(space)
     print("1 - Pommes - 1€")
     print("2 - Bratwurst 2€")
@@ -61,9 +60,7 @@ while switch == 1:
         os.system("cls")
 
 os.system("cls")
-print("------------------------------")
-print("[TOLLES PROGRAMM] -> by Maxiii")
-print("------------------------------")
+print(heading)
 print(space)
 
 #print out what we added to our shopping_list variable with a "for loop"
