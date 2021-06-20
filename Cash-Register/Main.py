@@ -12,9 +12,8 @@ need_to_pay = 0
 #variable for shopping list
 list = []
 
-os.system("cls")
-
 #startup 
+os.system("cls")
 for i in range (2):
     print("--------------\nstarting .\n--------------")
     time.sleep(0.5)
