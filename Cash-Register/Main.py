@@ -1,8 +1,10 @@
 import os
 import time
+from datetime import date
 
 space = " "
 heading = "------------------------------\n[TOLLES PROGRAMM] -> by Maxiii\n------------------------------"
+today = date.today()
 
 #added a on/off switch for the "while loop"
 switch = 1
@@ -57,6 +59,11 @@ while switch == 1:
         print("wrong commmand, try again")
         time.sleep(1)
         os.system("cls")
+
+f = open(f"{today}.txt", "a")
+for shopping_list in list:
+    f.write(f"{shopping_list}\n")
+f.close()
 
 os.system("cls")
 print(heading)
