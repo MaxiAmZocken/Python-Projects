@@ -60,10 +60,14 @@ while switch == 1:
         time.sleep(1)
         os.system("cls")
 
-f = open(f"{today}.txt", "a")
-for shopping_list in list:
-    f.write(f"{shopping_list}\n")
-f.close()
+
+if len(list):
+    f = open(f"{today}.txt", "a")
+    for shopping_list in list:
+        f.write(f"{shopping_list}\n")
+    f.close()
+else:
+    pass
 
 os.system("cls")
 print(heading)
