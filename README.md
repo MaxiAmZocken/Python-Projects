@@ -2,7 +2,7 @@
 
 To make these Projects run, you need to have python installed
 
-Download Python here : [Donwload](https://www.python.org/downloads/)
+Download Python here : [Download](https://www.python.org/downloads/)
 
 Projects :
 - [Cash-Register](https://github.com/MaxiAmZocken/Python-Projects/tree/master/Cash-Register)
