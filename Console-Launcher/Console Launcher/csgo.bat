@@ -1,1 +1,0 @@
-start E:\Steam\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe

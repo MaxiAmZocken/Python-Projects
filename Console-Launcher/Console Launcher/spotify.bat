@@ -1,1 +1,0 @@
-start C:\Users\Nutzer\AppData\Roaming\Spotify\Spotify.exe
