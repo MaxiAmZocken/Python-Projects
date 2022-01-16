@@ -1,8 +1,6 @@
 ﻿import socket
 import os
 from requests import get
-import clipboard
-
 space = " "
 
 external_ip = get('https://api.ipify.org').content.decode('utf8')
