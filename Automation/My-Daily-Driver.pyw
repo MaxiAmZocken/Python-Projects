@@ -27,7 +27,7 @@ def automation():
                     log("AutoHotkey has been closed")
 
         #check if ea anti cheat or battlefield is not open
-        elif "EAAntiCheat.GameServiceLauncher.exe" not in process_names and "bfv.exe" not in process_names and "AutoHotkey64.exe" not in process_names:
+        elif "EAAntiCheat.GameServiceLauncher.exe" not in process_names and "bfv.exe" not in process_names and "AutoHotkey64.exe" not in process_names and "AutoHotkeyUX.exe" not in process_names:
             #open autohotkey
             subprocess.Popen([r"C:\Program Files\AutoHotkey\UX\AutoHotkeyUX.exe",r"D:\Programming\Git\My-Stuff\My Daily Driver.ahk"])
             log("AutoHotkey has been opened")
